@@ -61,7 +61,7 @@ st.markdown("""
 # A. Intentar cargar el logo localmente desde el repositorio de GitHub
 try:
     if os.path.exists("logo.png"):
-        img = Image.open("logo.png")
+        img = Image.open("logo1.png")
         st.sidebar.image(img, use_container_width=True)
     else:
         st.sidebar.warning("⚠️ Sube 'logo.png' a tu GitHub")
