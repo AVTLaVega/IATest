@@ -45,7 +45,8 @@ st.markdown("""
 URL_LOGO_AVT = "https://i.imgur.com/83pM4A7.png"
 
 # Mostrar logo en la sidebar
-st.sidebar.image(URL_LOGO_AVT, use_column_width=True)
+# NUEVA LÍNEA (LEER ARCHIVO LOCAL)
+URL_LOGO_AVT = "logo.png"
 st.sidebar.markdown("---")
 st.sidebar.header("🕹️ Controles de la Granja")
 
