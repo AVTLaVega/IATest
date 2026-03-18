@@ -63,8 +63,8 @@ st.markdown("""
 # 2. SECCIÓN: BARRA LATERAL (Logo y Controles)
 # ==========================================
 try:
-    if os.path.exists("logo.png"):
-        st.sidebar.image(Image.open("logo.png"), use_container_width=True)
+    if os.path.exists("logo1.png"):
+        st.sidebar.image(Image.open("logo1.png"), use_container_width=True)
 except: pass
 
 st.sidebar.markdown("---")
